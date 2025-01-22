@@ -1,1 +1,9 @@
-output/
+output/*
+build/*
+tex/*
+*~
+\#*\#
+!tex/*.xsl
+!tex/preamble.tex
+!tex/beamer-preamble.tex
+!tex/Makefile

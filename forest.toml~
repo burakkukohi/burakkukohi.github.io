@@ -1,6 +1,0 @@
-[forest]
-host = "frank"
-trees = ["trees/public"]
-assets = ["assets/public"]
-theme = "theme"
-home = "frank-0001"
