@@ -1,5 +1,5 @@
 .PHONY: default
-default: rebuild
+default: build
 
 .PHONY: build
 build:
