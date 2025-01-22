@@ -1,0 +1,7 @@
+[forest]
+#[5.0] host = "frank"
+trees = ["trees/public"]
+assets = ["assets/public"]
+theme = "theme"
+#[5.0] home = "frank-0001"
+root = "frank-0001"
