@@ -1,0 +1,279 @@
+\title{macros}
+\import{latex-preamble}
+
+\p{
+  This tree contains frequently used macros.
+}
+
+\xmlns:html{http://www.w3.org/1999/xhtml}
+
+\def\emph[x]{\em{\x}}
+\def\textbf[x]{\strong{\x}}
+\def\dem[x]{\em{\strong{\x}}}
+
+\def\table[body]{
+  \<html:table>{\body}
+}
+\def\tr[body]{
+  \<html:tr>{\body}
+}
+\def\td[body]{
+  \<html:td>{\body}
+}
+\def\th[body]{
+  \<html:th>{\body}
+}
+\def\hr{
+  \<html:hr>{}
+}
+
+\alloc\base/tex-preamble
+
+\def\texfig[~body]{
+ \scope{
+  \put?\base/tex-preamble{
+   \latex-preamble/string-diagrams
+   \latex-preamble/diagrams
+  }
+  \figure{\tex{\get\base/tex-preamble}{\body{}}}
+ }
+}
+
+\def\proof[body]{
+  \scope{
+    \put\transclude/toc{false}
+    \subtree{
+      \taxon{proof}
+      \body
+    }
+  }
+}
+
+\def\solution[body]{
+  \scope{
+    \put\transclude/toc{false}
+    \subtree{
+      \taxon{solution}
+      \body
+    }
+  }
+}
+
+
+% Delimiters
+
+\def\prn[x]{#{{\mathopen{}\left(\x\right)\mathclose{}}}}
+\def\brc[x]{#{{\mathopen{}\left\{\x\right\}\mathclose{}}}}
+\def\brk[x]{#{{\mathopen{}\left [\x\right ]\mathclose{}}}}
+\def\bbrk[x]{#{{\mathopen{}\llbracket\x\rrbracket\mathclose{}}}}
+\def\vrt[x]{#{{\mathopen{}\left\lvert\x\right\rvert\mathclose{}}}}
+\def\vvrt[x]{#{{\mathopen{}\left\lVert\x\right\rVert\mathclose{}}}}
+\def\gl[x]{#{{\mathopen{}\left\langle\x\right\rangle\mathclose{}}}}
+\def\floors[x]{#{{\mathopen{}\left\lfloor\x\right\rfloor\mathclose{}}}}
+
+
+% Blackboard bold, bold, and calligraphic characters
+
+\def\AA{#{\mathbb{A}}}
+\def\BB{#{\mathbb{B}}}
+\def\CC{#{\mathbb{C}}}
+\def\DD{#{\mathbb{D}}}
+\def\EE{#{\mathbb{E}}}
+\def\FF{#{\mathbb{F}}}
+\def\GG{#{\mathbb{G}}}
+\def\HH{#{\mathbb{H}}}
+\def\II{#{\mathbb{I}}}
+\def\JJ{#{\mathbb{J}}}
+\def\KK{#{\mathbb{K}}}
+\def\LL{#{\mathbb{L}}}
+\def\MM{#{\mathbb{M}}}
+\def\NN{#{\mathbb{N}}}
+\def\OO{#{\mathbb{O}}}
+\def\PP{#{\mathbb{P}}}
+\def\QQ{#{\mathbb{Q}}}
+\def\RR{#{\mathbb{R}}}
+\def\SS{#{\mathbb{S}}}
+\def\TT{#{\mathbb{T}}}
+\def\UU{#{\mathbb{U}}}
+\def\VV{#{\mathbb{V}}}
+\def\WW{#{\mathbb{W}}}
+\def\XX{#{\mathbb{X}}}
+\def\YY{#{\mathbb{Y}}}
+\def\ZZ{#{\mathbb{Z}}}
+
+\def\bA{#{\mathbf{A}}}
+\def\bB{#{\mathbf{B}}}
+\def\bC{#{\mathbf{C}}}
+\def\bD{#{\mathbf{D}}}
+\def\bE{#{\mathbf{E}}}
+\def\bF{#{\mathbf{F}}}
+\def\bG{#{\mathbf{G}}}
+\def\bH{#{\mathbf{H}}}
+\def\bI{#{\mathbf{I}}}
+\def\bJ{#{\mathbf{J}}}
+\def\bK{#{\mathbf{K}}}
+\def\bL{#{\mathbf{L}}}
+\def\bM{#{\mathbf{M}}}
+\def\bN{#{\mathbf{N}}}
+\def\bO{#{\mathbf{O}}}
+\def\bP{#{\mathbf{P}}}
+\def\bQ{#{\mathbf{Q}}}
+\def\bR{#{\mathbf{R}}}
+\def\bS{#{\mathbf{S}}}
+\def\bT{#{\mathbf{T}}}
+\def\bU{#{\mathbf{U}}}
+\def\bV{#{\mathbf{V}}}
+\def\bW{#{\mathbf{W}}}
+\def\bX{#{\mathbf{X}}}
+\def\bY{#{\mathbf{Y}}}
+\def\bZ{#{\mathbf{Z}}}
+\def\b0{#{\mathbf{0}}}
+\def\b1{#{\mathbf{1}}}
+\def\b2{#{\mathbf{2}}}
+\def\b3{#{\mathbf{3}}}
+\def\b4{#{\mathbf{4}}}
+\def\b5{#{\mathbf{5}}}
+\def\b6{#{\mathbf{6}}}
+\def\b7{#{\mathbf{7}}}
+\def\b8{#{\mathbf{8}}}
+\def\b9{#{\mathbf{9}}}
+
+\def\cA{#{\mathcal{A}}}
+\def\cB{#{\mathcal{B}}}
+\def\cC{#{\mathcal{C}}}
+\def\cD{#{\mathcal{D}}}
+\def\cE{#{\mathcal{E}}}
+\def\cF{#{\mathcal{F}}}
+\def\cG{#{\mathcal{G}}}
+\def\cH{#{\mathcal{H}}}
+\def\cI{#{\mathcal{I}}}
+\def\cJ{#{\mathcal{J}}}
+\def\cK{#{\mathcal{K}}}
+\def\cL{#{\mathcal{L}}}
+\def\cM{#{\mathcal{M}}}
+\def\cN{#{\mathcal{N}}}
+\def\cO{#{\mathcal{O}}}
+\def\cP{#{\mathcal{P}}}
+\def\cQ{#{\mathcal{Q}}}
+\def\cR{#{\mathcal{R}}}
+\def\cS{#{\mathcal{S}}}
+\def\cT{#{\mathcal{T}}}
+\def\cU{#{\mathcal{U}}}
+\def\cV{#{\mathcal{V}}}
+\def\cW{#{\mathcal{W}}}
+\def\cX{#{\mathcal{X}}}
+\def\cY{#{\mathcal{Y}}}
+\def\cZ{#{\mathcal{Z}}}
+
+\def\fA{#{\mathfrak{A}}}
+\def\fB{#{\mathfrak{B}}}
+\def\fC{#{\mathfrak{C}}}
+\def\fD{#{\mathfrak{D}}}
+\def\fE{#{\mathfrak{E}}}
+\def\fF{#{\mathfrak{F}}}
+\def\fG{#{\mathfrak{G}}}
+\def\fH{#{\mathfrak{H}}}
+\def\fI{#{\mathfrak{I}}}
+\def\fJ{#{\mathfrak{J}}}
+\def\fK{#{\mathfrak{K}}}
+\def\fL{#{\mathfrak{L}}}
+\def\fM{#{\mathfrak{M}}}
+\def\fN{#{\mathfrak{N}}}
+\def\fO{#{\mathfrak{O}}}
+\def\fP{#{\mathfrak{P}}}
+\def\fQ{#{\mathfrak{Q}}}
+\def\fR{#{\mathfrak{R}}}
+\def\fS{#{\mathfrak{S}}}
+\def\fT{#{\mathfrak{T}}}
+\def\fU{#{\mathfrak{U}}}
+\def\fV{#{\mathfrak{V}}}
+\def\fW{#{\mathfrak{W}}}
+\def\fX{#{\mathfrak{X}}}
+\def\fY{#{\mathfrak{Y}}}
+\def\fZ{#{\mathfrak{Z}}}
+
+\def\sA{#{\mathscr{A}}}
+\def\sB{#{\mathscr{B}}}
+\def\sC{#{\mathscr{C}}}
+\def\sD{#{\mathscr{D}}}
+\def\sE{#{\mathscr{E}}}
+\def\sF{#{\mathscr{F}}}
+\def\sG{#{\mathscr{G}}}
+\def\sH{#{\mathscr{H}}}
+\def\sI{#{\mathscr{I}}}
+\def\sJ{#{\mathscr{J}}}
+\def\sK{#{\mathscr{K}}}
+\def\sL{#{\mathscr{L}}}
+\def\sM{#{\mathscr{M}}}
+\def\sN{#{\mathscr{N}}}
+\def\sO{#{\mathscr{O}}}
+\def\sP{#{\mathscr{P}}}
+\def\sQ{#{\mathscr{Q}}}
+\def\sR{#{\mathscr{R}}}
+\def\sS{#{\mathscr{S}}}
+\def\sT{#{\mathscr{T}}}
+\def\sU{#{\mathscr{U}}}
+\def\sV{#{\mathscr{V}}}
+\def\sW{#{\mathscr{W}}}
+\def\sX{#{\mathscr{X}}}
+\def\sY{#{\mathscr{Y}}}
+\def\sZ{#{\mathscr{Z}}}
+
+
+% Category theory
+
+\def\Hom[C]{#{\operatorname{\mathrm{Hom}_\C}}}
+\def\Homset[C][x][y]{#{\Hom{\C}\prn{\x,\y}}}
+\def\dom{#{\operatorname{\mathrm{dom}}}}
+\def\codom{#{\operatorname{\mathrm{codom}}}}
+\def\yon{#{\operatorname{\mathrm{よ}}}}
+
+\def\id[x]{#{\mathrm{id}_\x}}
+
+\def\lim{#{\operatorname{\mathrm{lim}}}}
+\def\colim{#{\operatorname{\mathrm{colim}}}}
+
+\def\Sl[C][D]{#{{\C}_{/\D}}}
+\def\opCat[C]{#{\C^{\mathrm{op}}}}
+\def\invImg[f]{#{\f^*}}
+\def\dirImg[f]{#{\f_*}}
+\def\pb[f]{#{\f^*}}
+\def\initOb[C]{#{\mathbf{0}_{\C}}}
+\def\termOb[C]{#{\mathbf{1}_{\C}}}
+\def\fibProd[A][C][B]{#{\A\mathbin{\times_{\C}}\B}}
+\def\comma[C][D]{#{{\C}\downarrow{\D}}}
+
+\def\into{#{\hookrightarrow}}
+\def\mono{#{\rightarrowtail}}
+\def\epi{#{\twoheadrightarrow}}
+\def\from{#{\leftarrow}}
+\def\xto[f]{#{\xrightarrow{\f}}}
+\def\proto{#{\nrightarrow}}
+\def\twoto{#{\Rightarrow}}
+
+\def\eqv{#{\simeq}}
+\def\iso{#{\cong}}
+
+\def\cat[c]{#{\mathsf{\c}}}
+\def\twocat[c]{#{\mathcal{\c}}}
+\def\Cat{#{\cat{Cat}}}
+\def\CAT{#{\cat{CAT}}}
+\def\Set{#{\cat{Set}}}
+\def\Fin{#{\cat{Fin}}}
+\def\Topos{#{\cat{Topos}}}
+\def\Logos{#{\cat{Logos}}}
+
+\def\Psh{#{\operatorname{\mathrm{Pr}}}}
+\def\Sh{#{\operatorname{\mathrm{Sh}}}}
+
+\def\big-symbol[sym]{\mathchoice{\textstyle\sym}{\textstyle\sym}{\scriptstyle\sym}{\scriptscriptstyle\sym}}
+
+\def\ixsum[ix]{#{\big-symbol{\sum_{\prn{\ix}}}}}
+\def\covsum[ix]{#{\big-symbol{\oint_{\prn{\ix}}}}}
+\def\ctrvsum[ix]{#{\big-symbol{\int_{\prn{\ix}}}}}
+\def\ixprod[ix]{#{\big-symbol{\prod_{\prn{\ix}}}}}
+\def\dcoprod[ix]{#{\big-symbol{\coprod_{\prn{\ix}}}}}
+\def\iixprod[ix]{#{\big-symbol{\prod_{\brc{\ix}}}}}
+
+\def\lam[x]{\lambda{\x}\mathpunct{.}}
+\def\inv{^{-1}}
