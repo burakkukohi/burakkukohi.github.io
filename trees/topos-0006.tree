@@ -1,0 +1,7 @@
+\taxon{terminology}
+\import{macros}
+\import{topos-0004}
+
+\p{
+  Given a [topos](topos-0004) \bX, an object of the [logos](topos-0001) \defLogos{\bX} is referred to as a \dem{sheaf} on \bX.
+}

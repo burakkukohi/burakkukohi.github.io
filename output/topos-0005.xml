@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>277</fr:anchor><fr:addr
+type="user">topos-0005</fr:addr><fr:route>topos-0005.xml</fr:route><fr:title
+text="Topos morphism">Topos morphism</fr:title><fr:taxon>Definition</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>A morphism of <fr:link
+type="local"
+href="topos-0004.xml"
+addr="topos-0004"
+title="Topos">topoi</fr:link> <fr:tex
+display="inline"><![CDATA[f : \mathbf {X} \to  \mathbf {Y}]]></fr:tex> is defined by a morphism <fr:tex
+display="inline"><![CDATA[f^* : \mathsf {Set}_{\mathbf {Y}} \to  \mathsf {Set}_{\mathbf {X}}]]></fr:tex>.
+  The functor is called the <fr:em><fr:strong>inverse image</fr:strong></fr:em> part of <fr:tex
+display="inline"><![CDATA[f]]></fr:tex>; the cocontinuity of <fr:tex
+display="inline"><![CDATA[f^*]]></fr:tex> ensures that we additionally have a right adjoint functor <fr:tex
+display="inline"><![CDATA[f^* \dashv  f_* : \mathsf {Set}_{\mathbf {X}} \to  \mathsf {Set}_{\mathbf {Y}}]]></fr:tex> called the <fr:em><fr:strong>direct image</fr:strong></fr:em>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
+toc="false"
+numbered="false"
+show-heading="true"
+show-metadata="false"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
+text="Related">Related</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="false"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>278</fr:anchor><fr:addr
+type="user">topos-0004</fr:addr><fr:route>topos-0004.xml</fr:route><fr:title
+text="Topos">Topos</fr:title><fr:taxon>Definition</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>A <fr:em><fr:strong>(Grothendieck) topos</fr:strong></fr:em> <fr:tex
+display="inline"><![CDATA[\mathbf {X}]]></fr:tex> is defined by a <fr:link
+type="local"
+href="topos-0001.xml"
+addr="topos-0001"
+title="Logos">logos</fr:link> called <fr:tex
+display="inline"><![CDATA[\mathsf {Set}_{\mathbf {X}}]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

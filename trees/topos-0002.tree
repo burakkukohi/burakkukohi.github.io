@@ -1,0 +1,7 @@
+\title{logos morphism}
+\taxon{definition}
+\import{macros}
+
+\p{
+  A morphism between [logoi](topos-0001) #{\cE \to \cF} is a functor that preserves finite limits and all colimits.
+}

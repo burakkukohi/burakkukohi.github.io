@@ -1,0 +1,9 @@
+\title{topos morphism}
+\taxon{definition}
+\import{macros}
+\import{topos-0004}
+
+\p{
+  A morphism of [topoi](topos-0004) #{f : \bX \to \bY} is defined by a morphism #{\invImg{f} : \defLogos{\bY} \to \defLogos{\bX}}.
+  The functor is called the \dem{inverse image} part of #{f}; the cocontinuity of \invImg{f} ensures that we additionally have a right adjoint functor #{\invImg{f} \adj \dirImg{f} : \defLogos{\bX} \to \defLogos{\bY}} called the \dem{direct image}.
+}

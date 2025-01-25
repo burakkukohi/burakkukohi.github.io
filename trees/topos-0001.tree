@@ -1,0 +1,45 @@
+\title{logos}
+\taxon{definition}
+\import{macros}
+
+\p{
+  A cocomplete and left exact category \cE is a \dem{logos} when it satisfies the following conditions:
+}
+\ol{
+  \li{
+    \emph{Colimits are universal:} given a morphism #{f : F \to E : \cE}, the pullback functor #{\pb{f} : \Sl{\cE}{E} \to \Sl{\cE}{F}} is cocontinuous.
+  }
+  \li{
+    \emph{Coproducts are disjoint:} the intersection of the coproduct injections is empty in the sense that the following diagram is always a pullback:
+    \texfig{
+      \DiagramSquare{
+        nw = {\termOb{\cE}},
+        ne = {E},
+        sw = {F},
+        se = {E + F},
+        nw/style = {pullback}
+      }
+    }
+  }
+  \li{
+    \emph{Equivalence relations are effective:} for an equivalence relation #{R \mono E \times E : \cE}, elements of #{E} are identified in the quotient #{E/R} if and only if they are identified by #{R}, i.e., #{R} arises as the kernel pair of its quotient map:
+    \texfig{
+      \DiagramSquare{
+        nw = {R},
+        ne = {E},
+        sw = {E},
+        se = {E/R},
+        nw/style = {pullback},
+        north = {\pi_1},
+        west = {\pi_2},
+        south = {e},
+        east = {e},
+        south/style = {->>},
+        east/style = {->>}
+      }
+    }
+  }
+  \li{
+    \emph{\cE has a small generating set:} there exists a small set of objects #{\cE' \subseteq \cE} such that morphisms with domain #{C \in \cE'} are jointly epic.
+  }
+}

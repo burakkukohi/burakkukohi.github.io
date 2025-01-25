@@ -250,6 +250,7 @@
 \def\xto[f]{#{\xrightarrow{\f}}}
 \def\proto{#{\nrightarrow}}
 \def\twoto{#{\Rightarrow}}
+\def\adj{#{\dashv}}
 
 \def\eqv{#{\simeq}}
 \def\iso{#{\cong}}

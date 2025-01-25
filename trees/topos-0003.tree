@@ -1,0 +1,6 @@
+\taxon{proposition}
+\import{macros}
+
+\p{
+  Every [logos](topos-0001) \cE has a subobject classifier #{\top : \termOb{\cE} \mono \Omega}.
+}

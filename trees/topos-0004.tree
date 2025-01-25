@@ -1,0 +1,9 @@
+\title{topos}
+\taxon{definition}
+\import{macros}
+
+\def\defLogos[X]{#{\Set_{\X}}}
+
+\p{
+  A \dem{(Grothendieck) topos} \bX is defined by a [logos](topos-0001) called \defLogos{\bX}.
+}
