@@ -226,7 +226,7 @@
 \def\Homset[C][x][y]{#{\Hom{\C}\prn{\x,\y}}}
 \def\dom{#{\operatorname{\mathrm{dom}}}}
 \def\codom{#{\operatorname{\mathrm{codom}}}}
-\def\yon{#{\operatorname{\mathrm{よ}}}}
+\def\yon{#{\operatorname{\mathrm{y}}}}
 
 \def\id[x]{#{\mathrm{id}_\x}}
 

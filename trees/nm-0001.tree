@@ -1,0 +1,21 @@
+\title{representable natural transformation}
+\taxon{definition}
+\import{macros}
+
+\p{
+  Let \cC be a small category.
+  A natural transformation #{f : Y \to X} is called \dem{representable} if all of its fibers are representable objects, in the following sense: for every #{c \in \cC} and #{x \in X(c)}, there is a #{d \in \cC}, a #{p : d \to c}, and a #{y \in Y(D)} such that the following square is a pullback:
+}
+\texfig{
+  \DiagramSquare{
+    nw = {\yon(d)},
+    ne = {Y},
+    sw = {\yon(c)},
+    se = {X},
+    nw/style = {pullback},
+    north = {y},
+    west = {\yon(p)},
+    south = {x},
+    east = {f}
+  }
+}
