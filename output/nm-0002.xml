@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>279</fr:anchor><fr:addr
+type="user">nm-0002</fr:addr><fr:route>nm-0002.xml</fr:route><fr:title
+text="Polynomial functors">Polynomial functors</fr:title><fr:taxon>Definition</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>Let <fr:tex
+display="inline"><![CDATA[\mathcal {E}]]></fr:tex> be a locally cartesian closed category and <fr:tex
+display="inline"><![CDATA[f : B \to  A]]></fr:tex> be a morphism of <fr:tex
+display="inline"><![CDATA[\mathcal {E}]]></fr:tex>.
+  There is an associated <fr:em><fr:strong>polynomial functor</fr:strong></fr:em> <fr:tex
+display="inline"><![CDATA[P_f : \mathcal {E} \to  \mathcal {E}]]></fr:tex>, defined for every object <fr:tex
+display="inline"><![CDATA[x \in  \mathcal {E}]]></fr:tex> by</fr:p><fr:tex
+display="block"><![CDATA[   P_f(X) = \sum _A\prod _fB^*(X) ]]></fr:tex><fr:p>We express this in the internal language of <fr:tex
+display="inline"><![CDATA[\mathcal {E}]]></fr:tex> like so:</fr:p><fr:tex
+display="block"><![CDATA[   P_f(X) = \mathchoice {\textstyle \sum _{{\mathopen {}\left (x : A\right )\mathclose {}}}}{\textstyle \sum _{{\mathopen {}\left (x : A\right )\mathclose {}}}}{\scriptstyle \sum _{{\mathopen {}\left (x : A\right )\mathclose {}}}}{\scriptscriptstyle \sum _{{\mathopen {}\left (x : A\right )\mathclose {}}}}{\mathopen {}\left (B(x) \to  X\right )\mathclose {}} ]]></fr:tex></fr:mainmatter><fr:backmatter /></fr:tree>

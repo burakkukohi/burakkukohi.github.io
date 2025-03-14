@@ -64,7 +64,7 @@
 
 \def\prn[x]{#{{\mathopen{}\left(\x\right)\mathclose{}}}}
 \def\brc[x]{#{{\mathopen{}\left\{\x\right\}\mathclose{}}}}
-\def\brk[x]{#{{\mathopen{}\left [\x\right ]\mathclose{}}}}
+\def\brk[x]{#{{\mathopen{}\left[\x\right]\mathclose{}}}}
 \def\bbrk[x]{#{{\mathopen{}\llbracket\x\rrbracket\mathclose{}}}}
 \def\vrt[x]{#{{\mathopen{}\left\lvert\x\right\rvert\mathclose{}}}}
 \def\vvrt[x]{#{{\mathopen{}\left\lVert\x\right\rVert\mathclose{}}}}
@@ -222,16 +222,15 @@
 
 % Category theory
 
-\def\Hom[C]{#{\operatorname{\mathrm{Hom}_\C}}}
-\def\Homset[C][x][y]{#{\Hom{\C}\prn{\x,\y}}}
-\def\dom{#{\operatorname{\mathrm{dom}}}}
-\def\codom{#{\operatorname{\mathrm{codom}}}}
-\def\yon{#{\operatorname{\mathrm{y}}}}
+\def\Hom[C]{#{\operatorname{Hom_\C}}}
+\def\dom{#{\operatorname{dom}}}
+\def\codom{#{\operatorname{codom}}}
+\def\yon{#{\operatorname{\mathsf{y}}}}
 
-\def\id[x]{#{\mathrm{id}_\x}}
+\def\id[x]{#{\mathsf{id}_\x}}
 
-\def\lim{#{\operatorname{\mathrm{lim}}}}
-\def\colim{#{\operatorname{\mathrm{colim}}}}
+\def\lim{#{\operatorname{lim}}}
+\def\colim{#{\operatorname{colim}}}
 
 \def\Sl[C][D]{#{{\C}_{/\D}}}
 \def\opCat[C]{#{\C^{\mathrm{op}}}}
@@ -276,5 +275,10 @@
 \def\dcoprod[ix]{#{\big-symbol{\coprod_{\prn{\ix}}}}}
 \def\iixprod[ix]{#{\big-symbol{\prod_{\brc{\ix}}}}}
 
-\def\lam[x]{\lambda{\x}\mathpunct{.}}
 \def\inv{^{-1}}
+
+
+% Type theory
+
+\def\lam[x]{\lambda{\x}\mathpunct{.}}
+\def\tp{#{\mathsf{tp}}}

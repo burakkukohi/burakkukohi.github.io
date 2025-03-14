@@ -1,0 +1,15 @@
+\title{polynomial functors}
+\taxon{definition}
+\import{macros}
+
+\p{
+  Let \cE be a locally cartesian closed category and #{f : B \to A} be a morphism of \cE.
+  There is an associated \dem{polynomial functor} #{P_f : \cE \to \cE}, defined for every object #{x \in \cE} by
+}
+##{
+  P_f(X) = \sum_A\prod_f\pb{B}(X)
+}
+\p{We express this in the internal language of \cE like so:}
+##{
+  P_f(X) = \ixsum{x : A}\prn{B(x) \to X}
+}

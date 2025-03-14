@@ -1,0 +1,7 @@
+\taxon{proposition}
+\import{macros}
+
+\p{
+  Let #{p : \tilde{\cU} \to \cU} be a [natural model](nm-0004); the presheaf #{P_p(\cU) = \ixsum{A : \cU}(A \to \cU)} classifies types in context #{A \vdash B~\tp}.
+  For any representable #{\Gamma}, there is a natural isomorphism between maps #{\Gamma \to \ixsum{A : \cU}(A \to \cU)} and pairs #{\Gamma \vdash A~\tp} and #{\Gamma.A \vdash B~\tp}.
+}

@@ -1,0 +1,6 @@
+\taxon{lemma}
+\import{macros}
+
+\p{
+  There is a natural bijection between maps #{g : Y \to \ixsum{x : A}(B(x) \to X)} and pairs of maps #{(g_1 : Y \to A, g_2 : \fibProd{Y}{A}{B} \to X)}.
+}
