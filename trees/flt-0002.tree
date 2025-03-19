@@ -3,5 +3,6 @@
 \import{macros}
 
 \p{
-  A \dem{model} of a clan \cC is a clan morphism into the \emph{large} clan \Set equipped with the maximal clan structure (\ie every function is a display map).
+  A \dem{model} of a clan \cT is a clan morphism into the \emph{large} clan \Set equipped with the maximal clan structure (\ie every function is a display map).
+  We write #{\cT\TMod} for the category of models #{\Hom{\Clan}(\cT,\Set)}.
 }

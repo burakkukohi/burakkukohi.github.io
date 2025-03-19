@@ -68,6 +68,15 @@
   }
 }
 
+\def\prescript[~sup][~sub][~b]{
+  \scope{
+    \put?\base/tex-preamble{
+      \latex-preamble/symbols
+    }
+    \tex{\get\base/tex-preamble}{$\prescript{\sup{}}{\sub{}}{\b{}}$}
+  }
+}
+
 % Delimiters
 
 \def\prn[x]{#{{\mathopen{}\left(\x\right)\mathclose{}}}}
@@ -270,6 +279,7 @@
 \def\Topos{#{\cat{Topos}}}
 \def\Logos{#{\cat{Logos}}}
 \def\Clan{#{\cat{Clan}}}
+\def\TMod{#{\text{-}\cat{Mod}}}
 
 \def\Psh{#{\operatorname{\mathrm{Pr}}}}
 \def\Sh{#{\operatorname{\mathrm{Sh}}}}

@@ -1,0 +1,23 @@
+\title{lifting property}
+\taxon{definition}
+\import{macros}
+
+\p{
+  Given two arrows #{f : A \to B} and #{g : X \to Y} in a category \cC, we say that #{f} has the \dem{left lifting property} with respect to #{g}, or equivalently that #{g} has the \dem{right lifting property} with respect to #{f}, and write #{f \pitchfork g}, if in every commutative square in the following configuration
+  \texfig{
+    \begin{tikzpicture}[diagram]
+      \SpliceDiagramSquare{
+        nw = A,
+        ne = X,
+        se = Y,
+        sw = B,
+        north = h,
+        east = g,
+        south = k,
+        west = f
+      }
+      \draw[morphism,exists,->] (sw) to node {$m$} (ne);
+    \end{tikzpicture}
+  }
+  there exists a diagonal filling #{m : B \to X} making both triangles commute.
+}

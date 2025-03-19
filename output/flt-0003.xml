@@ -7,63 +7,7 @@ show-heading="true"
 show-metadata="true"
 expanded="true"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>280</fr:anchor><fr:addr
-type="user">flt-0002</fr:addr><fr:route>flt-0002.xml</fr:route><fr:title
-text="Models of a clan">Models of a <fr:link
-type="local"
-href="flt-0001.xml"
-addr="flt-0001"
-title="Clan">clan</fr:link></fr:title><fr:taxon>Definition</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>A <fr:em><fr:strong>model</fr:strong></fr:em> of a clan <fr:tex
-display="inline"><![CDATA[\mathcal {T}]]></fr:tex> is a clan morphism into the <fr:em>large</fr:em> clan <fr:tex
-display="inline"><![CDATA[\mathsf {Set}]]></fr:tex> equipped with the maximal clan structure (
-  
-    
-    <fr:resource
-hash="18ddbd1f42b8bae2aeffcb273dfc0f6b"><fr:resource-content><fr:img
-src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuMC4zIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzI0LjM0MTk2M3B0JyBoZWlnaHQ9JzEyLjY5OTQyMnB0JyB2aWV3Qm94PSctNzIgLTcyIDE2LjIyNzk3NSA4LjQ2NjI4MSc+CjxzdHlsZSB0eXBlPSd0ZXh0L2Nzcyc+CjwhW0NEQVRBW0Bmb250LWZhY2V7Zm9udC1mYW1pbHk6Y21yMTA7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQU04QUFvQUFBQUFBNlFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRVFBQUFCZ2hVZHpwV050WVhBQUFBRTRBQUFBTVFBQUFEd0FRZ0NIWjJ4NVpnQUFBV3dBQUFCMEFBQUFkS09qVERWb1pXRmtBQUFCNEFBQUFDOEFBQUEyS1pmZ3lHaG9aV0VBQUFJUUFBQUFId0FBQUNRRUtnSFBhRzEwZUFBQUFqQUFBQUFLQUFBQUNnUDFBRmhzYjJOaEFBQUNQQUFBQUFnQUFBQUlBQ1lBT20xaGVIQUFBQUpFQUFBQUZ3QUFBQ0FBQlFBWGJtRnRaUUFBQWx3QUFBRE5BQUFCT0lMaEtxbHdiM04wQUFBRExBQUFBQkFBQUFBZ0FBTUFBWGphWTJCbW5NUTRnWUdWZ1lGcEZ0UFpmeUlNL1NDYThRM2pHd1pqUms0R0lHQmpnQU5HQmlTUVVseVdEcFRVWWRCalp2Z1A1RE5EcEpIVS9BY0tBd0RWQWd6YmVOcGpZR0JnWW1CZ1lBWmlFU0RKQ0taWkdEU0FOQnVRWmdUSzZqRG8vZjhQNUlQcC8xZi9Yd0dyQWdJQWkxb0l3d0FBQUFBQkFGai9PZ0RRQUcwQUZRQUFOd1lQQVFZSElpY21OelkzTkFjR0lpWTBOamNlQWRBRUl3WWpEUW9CQVFsR0F3TVBOQnNjR2g4akFWWTFDVElCREFRSFMyVVNCQTRoS1NFQkFUa0FBUUJaQUFFQXhRQnNBQWdBQURjT0FTSW1ORFl5RnNVQkh5MGZIeTBmTmhZZkh5MGZId0FBZU5wallHUmdZQURpbDV0KzdZem50L25Ld016Q0FBSlBHQUtFRVBSL0s2WUdobHdnbDRPQkNTUUtBRFQ4Q2JVQWVOcGpZR1JnWUdiNHo4REF3TlRBRU1IZ3czQ0JBU2lDQXBnQVNPUUMvUUFDZ0FBQUFSd0FXQUJaQUFBQUFBQUFBQ1lBT25qYVkyQmtZR0JnWmhCakFORU1VQklKQUFBQzNnQWRBSGphUll3eGI4SXdFSVcvaUFTSmRPaFNkV0FBRDh4V29qQjNZV0JpWldJQmJLSU1jWkFUSWlHaGp2M2RQWXdsYm5qNjdyMTNCK1Q4a3ZDY2hNK2d6MG5KWkh0eHhnZGZrYWV5TFNQbnpGa3hJVWxuNGl6NGlaeEtjb2ljOGMwbDhsVDhSK1NjTlgrYnJyM2VCdXZWcmpQV3UzUHJ5Mkp2ZmQ5MFRwVzZDUHZXT3V1UGd6WHFkRmRtYlBxeGJsV2xDMTJ4b2FQbHlvMEJpMGV4RThjRWRwd2w4NVFVN0lQVDAwanFwRldpeFgzblc4bGQ2QnpESnlPZEUzZFJ3eWhYdldndGJVVVZMalhWUDJNOUx3OEFBQUI0Mm1OZ1prQUdqQXhvQUFBQWpnQUYpIGZvcm1hdCgnd29mZicpO30KQGZvbnQtZmFjZXtmb250LWZhbWlseTpjbXRpMTA7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQVJFQUFvQUFBQUFCT2dBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRVFBQUFCZ2hVbDBBR050WVhBQUFBRTRBQUFBTXdBQUFFUUFlUUVCWjJ4NVpnQUFBV3dBQUFGeEFBQUJvTFVyb2dob1pXRmtBQUFDNEFBQUFDOEFBQUEyS1puanRtaG9aV0VBQUFNUUFBQUFJQUFBQUNRRk53RnRhRzEwZUFBQUF6QUFBQUFRQUFBQUVBYkxBVDVzYjJOaEFBQURRQUFBQUFvQUFBQUtBT1lBYW0xaGVIQUFBQU5NQUFBQUdBQUFBQ0FBQndCRWJtRnRaUUFBQTJRQUFBRFNBQUFCUHFBWWRkTndiM04wQUFBRU9BQUFBQXdBQUFBZ0FBTUFBSGphWTJCbTNNUTRnWUdWZ1lGcEZ0UFpmeUlNL1NDYThRM2pHd1pqUms0R0lHQmpnQU5HQmlTUVVseVdEcFRVWThoa1p2Z1A1RE5EcEpIVS9BY0tBd0RuancwNGVOcGpZR0JnWW1CZ1lBWmlFU0RKQ0taWkdBeUFOQWNRZ3VUMEdGSVpNdi8vUjdEK1gvNC85Lzhzc0Zvd0FBRG5VZ3QwQUhqYUhkSEJUc0pBRUFiZ21kMnlDMjNaRmxLMldMQkF3YmFnRm9YYWlxSkVURkJqUEJrU1g4RkViM3J5Sll4UDRCdjRGTDZHSGp4NzlLd3JtZE0vTThsOHlRRENBd0I4d1IyVUFIS0JQSXlPY1NTL01QSUdGT09oZTdJV0lSazBOandBQW8rL1AvaUo3OUNEVkcxM0JaR3V6UExNOWJIR0xHUTh3VDBWVmFtR1pGeGdOSmFybklaUnlCbG5QekV6c2JWajMwOTF5blJNNnBPYml3dnQxTEl2cjNZelVqK01sZ2MxZDcvWEdXdUJyMjhLTy9tV1I3TXJTb05GbWFCUkVQMXFySkhiODZlelNubUtPT3FWRmsxUmxNZ0x0cHg2WGFRVlhnNlVjNm1jMStRVmNwZ0RiRGovbC85dDZZeG1hZGhkVVFWMm96QmQ0VWJTZFN6Q3VJOTVOc01zUDhaeFJ0VThDTk5zUEpKNGJSdFZQNDlETFcyWlhKUUdzdUF3cFM4eDIxUjlQMEdpeitzVUxkNlgzQ2tRcHBjcHRtMVR0aXFHKzhLR2pVYWk0VzViaU9kbFVPc1oybFp4YTExblNNU3c0UTIxZUNDTXp0dWs3K2lvYlpyYmRaTlIvSEE5SzI3YTZqRi8ybGcyWXdBQUFIamFZMkJrWUdBQTRxYmlwZlBqK1cyK01qQ3pNSURBRTRZQUlRVDkveXRURTlNQ0lKZURnUWtrQ2dBUnhRbVNBSGphWTJCa1lHQm0rTS9Bd01EVXhCRDYveG5qZlFhZ0NBcGdBUUJza0FTbkFvSUFBQUU1QUhRQjF3QjFBVGtBVlFBQUFBQUFGZ0JxQU5BQUFIamFZMkJrWUdCZ1lYQm1ZR0lBQVVZR05BQUFCM1VBVEhqYVRZNnhhc013RUlZL1U4ZFFwOUNwSFRvVVRSbUZqZnNBZ1F5WnNtWXNKSkVJRGxnS3NtTElFdm9BZmVoZUZBMDl3ZkhkZDcrRWdKb2JCZmNxZUUzOVhpV1ZUQStlTWVjdGN5VkhaYTc1WU1FVFJma3M1cE5sNXBJWHZqUFBlT2VVdVJML2s3bm1pOStWSDg2WGFJUGFlR09ET3d5eGI1dXREV1B2bldwMTh4QnI2MnpZUld2VS9xck0xSS9UY1ZDZGJuVEhDcy9BbVFzUlM1Q2ZiY1NZeEk2RDdDSTlMUTNiNUVhWnZHeVVPQzMyZjJJdENaZFN1L1Nha2RTZXEzVERKSmxSK2xIeWlpN2QxWFIvN1RjdzF3QUFlTnBqWUdiQUN3QUFmUUFFKSBmb3JtYXQoJ3dvZmYnKTt9CnRleHQuZjAge2ZvbnQtZmFtaWx5OmNtdGkxMDtmb250LXNpemU6OS45NjI2NHB4fQp0ZXh0LmYxIHtmb250LWZhbWlseTpjbXIxMDtmb250LXNpemU6OS45NjI2NHB4fQpdXT4KPC9zdHlsZT4KPGcgaWQ9J3BhZ2UxJz4KPHRleHQgY2xhc3M9J2YwJyB4PSctNzIuMDAwMDA0JyB5PSctNjUuNDcwOSc+aS5lPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjEnIHg9Jy02MS4zMDY4MjQnIHk9Jy02NS40NzA5Jz4uLDwvdGV4dD4KPC9nPgo8L3N2Zz4=" /></fr:resource-content><fr:resource-source
-type="latex"
-part="preamble"><![CDATA[
-      
-    \RequirePackage{xspace}
-
-  % Add a period to the end of an abbreviation unless there's one
-  % already, then \xspace.
-  \DeclareRobustCommand\onedot{\futurelet\@let@token\@onedot}
-  \def\@onedot{\ifx\@let@token.\else.\null\fi\xspace}
-
-  \newcommand{\eg}{\emph{e.g}.,\xspace}
-  \newcommand{\vs}{\emph{versus}\xspace}
-  \newcommand{\ie}{\emph{i.e}.,\xspace}
-  \def\cf{\emph{cf}\onedot}
-  \def\etc{\emph{etc}\onedot}
-  \def\etal{\emph{et~al}\onedot}
-  \def\opcit{\emph{op.~cit}\onedot}
-  \def\viceversa{\emph{vice~versa}}
-  \def\apriori{\emph{a~priori}\xspace}
-
-    ]]></fr:resource-source><fr:resource-source
-type="latex"
-part="body"><![CDATA[\ie ]]></fr:resource-source></fr:resource>
-  
- every function is a display map).
-  We write <fr:tex
-display="inline"><![CDATA[\mathcal {T}\text {-}\mathsf {Mod}]]></fr:tex> for the category of models <fr:tex
-display="inline"><![CDATA[\operatorname {Hom_\mathsf {Clan}}(\mathcal {T},\mathsf {Set})]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter><fr:tree
-toc="false"
-numbered="false"
-show-heading="true"
-show-metadata="false"
-expanded="true"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:title
-text="Backlinks">Backlinks</fr:title><fr:authors /></fr:frontmatter><fr:mainmatter><fr:tree
-toc="true"
-numbered="false"
-show-heading="true"
-show-metadata="true"
-expanded="false"
-root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>281</fr:anchor><fr:addr
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>287</fr:anchor><fr:addr
 type="user">flt-0003</fr:addr><fr:route>flt-0003.xml</fr:route><fr:title
 text="Representable models">Representable models</fr:title><fr:taxon>Remark</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>The representable functors <fr:tex
 display="inline"><![CDATA[\operatorname {Hom_\mathcal {T}}(\Gamma ,-) : \mathcal {T} \to  \mathsf {Set}]]></fr:tex> are <fr:link
@@ -318,7 +262,7 @@ part="body"><![CDATA[
   \end {tikzpicture}
 ]]></fr:resource-source></fr:resource></fr:figure>
  
-</fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree><fr:tree
+</fr:mainmatter><fr:backmatter><fr:tree
 toc="false"
 numbered="false"
 show-heading="true"
@@ -333,258 +277,45 @@ show-heading="true"
 show-metadata="true"
 expanded="false"
 root="false"
-xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>282</fr:anchor><fr:addr
-type="user">flt-0001</fr:addr><fr:route>flt-0001.xml</fr:route><fr:title
-text="Clan">Clan</fr:title><fr:taxon>Definition</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>A <fr:em><fr:strong>clan</fr:strong></fr:em> is a small category <fr:tex
-display="inline"><![CDATA[\mathcal {C}]]></fr:tex> together with a distinguished class of arrows called <fr:em><fr:strong>display maps</fr:strong></fr:em>, such that:</fr:p><fr:ol><fr:li>Pullbacks against any display map exist, and display maps are pullback stable.
-    
- 
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"><fr:frontmatter><fr:anchor>288</fr:anchor><fr:addr
+type="user">flt-0002</fr:addr><fr:route>flt-0002.xml</fr:route><fr:title
+text="Models of a clan">Models of a <fr:link
+type="local"
+href="flt-0001.xml"
+addr="flt-0001"
+title="Clan">clan</fr:link></fr:title><fr:taxon>Definition</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>A <fr:em><fr:strong>model</fr:strong></fr:em> of a clan <fr:tex
+display="inline"><![CDATA[\mathcal {T}]]></fr:tex> is a clan morphism into the <fr:em>large</fr:em> clan <fr:tex
+display="inline"><![CDATA[\mathsf {Set}]]></fr:tex> equipped with the maximal clan structure (
   
-  <fr:figure><fr:resource
-hash="075d440b84796fbbe8b82d2639dfb95d"><fr:resource-content><fr:img
-src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuMC4zIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzExMi45OTcwMDZwdCcgaGVpZ2h0PScxMDcuMjEyMTI1cHQnIHZpZXdCb3g9Jy03MiAtNzIgNzUuMzMxMzM3IDcxLjQ3NDc1Jz4KPHN0eWxlIHR5cGU9J3RleHQvY3NzJz4KPCFbQ0RBVEFbQGZvbnQtZmFjZXtmb250LWZhbWlseTpjbXN5NztzcmM6dXJsKGRhdGE6YXBwbGljYXRpb24veC1mb250LXdvZmY7YmFzZTY0LGQwOUdSZ0FCQUFBQUFBTUVBQW9BQUFBQUEyUUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCUFV5OHlBQUFBOUFBQUFFc0FBQUJnYURwaDJXTnRZWEFBQUFGQUFBQUFLZ0FBQURRQURPQ0RaMng1WmdBQUFXd0FBQUJBQUFBQVFFYlRvMWhvWldGa0FBQUJyQUFBQUMwQUFBQTJLcWZiNzJob1pXRUFBQUhjQUFBQUhnQUFBQ1FFaC8vamFHMTBlQUFBQWZ3QUFBQUlBQUFBQ0FUaUFERnNiMk5oQUFBQ0JBQUFBQVlBQUFBR0FDQUFBRzFoZUhBQUFBSU1BQUFBRndBQUFDQUFCQUFRYm1GdFpRQUFBaVFBQUFET0FBQUJPQk4vS3J0d2IzTjBBQUFDOUFBQUFCQUFBQUFnQUFNQUFYamFZMkJtS21TY3dNREt3TUEwaStuc1B4R0dmaEROK0lieERZTXhJeWNERUxBeElJQUFFanVsdUN5ZGdlMkJ3UU1EWnNVL1Jnd016SXJNNTREQ2pBZ1YvLzh6TUFBQUhZc1AwUUI0Mm1OZ1lHQmlZR0JnQm1JUklNa0lwbGtZRklBMEN4QUMrUThNL3YrSGtQSVh3ZklNQUdSeUIyd0FBQUFCQURFQUp3RTBBandBRGdBQUFRTUdMZ0VuTnhNK0FUY2VBUmNXQVNuQkJ4QWVBZ1dIQkJnZEdDTUJBZ0hqL2xnVUF3MEtFQUc3RGlFQkFSNFpDQUI0Mm1OZ1pHQmdBT0x0bnc2NHh2UGJmR1ZnWm1FQWdTY01QdEhJTlBORUpoc2d4Y0hBQk9JQkFCRzhDRWtBQUFCNDJtTmdaR0JnVnZ4akJDUW5NaGd5eURLYU1BQkZVQUFUQUVFYUFtNEFBQU9SQUFBQlVRQXhBQUFBQUFBZ0FBQjQybU5nWkdCZ1lHTGdad0RSREZBU0NRQUFBaFFBRlFCNDJrMk1QVy9DTUJDR240Z0VpWFRvVW5Yb0FCNllyYUJVWW1OaFlHSmw2Z0xZb0F4eGtCMGlSYW82OHJ0N3VCNTZ3K2w1UCs2QWtoOHlucFB4R3ZkemNncFJmMXp3d2x2aXFhaEY0cElQbGt6SThwazRjemFKYzBtK0VoZThjMGs4RmY4N2Nja25qMjNYM3U2OTlXcmZHZXZkdVEzaittQjlhRHFuVnJxS2VtZWQ5Y2ZlR25VYWxSbWFNRnhiVmV0SzEyenBhTGx4cDhmaVVlekZNWkVkWjhrQ0kyc08wUWswa2pwcHJkQlUvL0tkNUM1Mmp2R1RrYzVKRWlVMHlGV1FmWlcyb282WG12b1g4M2t3VHdBQWVOcGpZR1pBQm93TWFBQUFBSTRBQlE9PSkgZm9ybWF0KCd3b2ZmJyk7fQpAZm9udC1mYWNle2ZvbnQtZmFtaWx5OmNtcjEwO3NyYzp1cmwoZGF0YTphcHBsaWNhdGlvbi94LWZvbnQtd29mZjtiYXNlNjQsZDA5R1JnQUJBQUFBQUFOMEFBb0FBQUFBQTlRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUJQVXk4eUFBQUE5QUFBQUVrQUFBQmdpVzJXc21OdFlYQUFBQUZBQUFBQU13QUFBRHhBaXVWOVoyeDVaZ0FBQVhRQUFBQ2tBQUFBcEdsVU5lTm9aV0ZrQUFBQ0dBQUFBQzhBQUFBMktqemNqbWhvWldFQUFBSklBQUFBSFFBQUFDUUdTUUpaYUcxMGVBQUFBbWdBQUFBTUFBQUFEQWdwQUZGc2IyTmhBQUFDZEFBQUFBZ0FBQUFJQURBQVVtMWhlSEFBQUFKOEFBQUFHQUFBQUNBQUJnQWZibUZ0WlFBQUFwUUFBQUROQUFBQk9JTGhLcWx3YjNOMEFBQURaQUFBQUJBQUFBQWdBQU1BQVhqYVkyQm1PczQ0Z1lHVmdZRnBGdFBaZnlJTS9TQ2E4UTNqR3daalJrNEdJR0JqZ0lNR0lIYUFjVktLeTlJWjJKZ25LN0V4TS93SDhwa1pHRUhDakFqbC80SENBQm9LRGpRQUFBQjQybU5nWUdCaVlHQmdCbUlSSU1rSXBsa1lOSUEwRzVCbVpHQmlucXpFOXY4L1VBbVkvcE4zOXc5WUZSQUFBSmVuQ1NjQUFBRUFJZ0FBQWxRQ3VBQWRBQUFCRnlNdUFRY2pKZ1lYRVFZV093RVZKeU1ITlRNeU5pY1JOaVlyQVRVQ054MGFDRVZyYVNNUkFRTWZSaUZUcDAwWU9Sb0NBaG81R0FLNDVtZGhBUUVTR1AzaEd4WWdBd01nRkJ3Q0dCd1ZId0FBQUFJQUwvLytBeVVDM1FBS0FBMEFBQWtCRmljaEJqY0JQZ0V5QndFaEFjVUJYd0VZL1RvWUFRRmZCUW9ZTGY3c0FpZ0N5LzA5Q2dJQ0NnTERDZ2htL2RjQUFBQjQybU5nWkdCZ0FPTGp1YkxNOGZ3Mlh4bVlXUmhBNEFtRFR6U0MvditQV1pYcExwREx3Y0FFRWdVQTlsTUpJUUI0Mm1OZ1pHQmdadmpQQUNSREdaU0FwQ29EVUFRRk1BTUFMVUVCcWdBQUFBS0FBQUFDVkFBaUExVUFMd0FBQUFBQU1BQlNlTnBqWUdSZ1lHQm1rR05nWWdBQlJnWTBBQUFEdlFBbWVOcEZqREZ2d2pBUWhiK0lCSWwwNkZKMVlBQVB6RmFpTUhkaFlHSmxZZ0Zzb2d4eGtCTWlJYUdPL2QwOWpDVnVlUHJ1dlhjSDVQeVM4SnlFejZEUFNjbGtlM0hHQjErUnA3SXRJK2ZNV1RFaFNXZmlMUGlKbkVweWlKenh6U1h5VlB4SDVKdzFmNXV1dmQ0RzY5V3VNOWE3Yyt2TFltOTkzM1JPbGJvSSs5WTY2NCtETmVwMFYyWnMrckZ1VmFVTFhiR2hvK1hLalFHTFI3RVR4d1IybkNYemxCVHNnOVBUU09xa1ZhTEZmZWRieVYzb0hNTW5JNTBUZDFIREtGZTlhQzF0UlJVdU5kVS9ZejB2RHdBQUFIamFZMkJtUUFhTURHZ0FBQUNPQUFVPSkgZm9ybWF0KCd3b2ZmJyk7fQp0ZXh0LmYwIHtmb250LWZhbWlseTpjbXN5Nztmb250LXNpemU6Ni45NzM4NDhweH0KdGV4dC5mMSB7Zm9udC1mYW1pbHk6Y21yMTA7Zm9udC1zaXplOjkuOTYyNjRweH0KXV0+Cjwvc3R5bGU+CjxnIGlkPSdwYWdlMSc+CjxnIHN0cm9rZS1taXRlcmxpbWl0PScxMCcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTYyLjE2MTg5NywtNjMuMzU0ODcyKXNjYWxlKDAuOTk2MjY0LC0wLjk5NjI2NCknPgo8ZyBmaWxsPScjMDAwJyBzdHJva2U9JyMwMDAnPgo8ZyBzdHJva2Utd2lkdGg9JzAuNCc+CjxnIHN0cm9rZS13aWR0aD0nMC41Jz4KPHBhdGggZD0nTTUuNjkwNDYtMTQuMjI2MzZIMTQuMjI2MzZWLTUuNjkwNDYnIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTUuNTY5NDYsLTIuNSknPgo8ZyBzdHJva2U9J25vbmUnIHRyYW5zZm9ybT0nc2NhbGUoLTEuMDAzNzUsMS4wMDM3NSl0cmFuc2xhdGUoLTYyLjE2MTg5NywtNjMuMzU0ODcyKXNjYWxlKC0xLC0xKSc+CjxnIGZpbGw9JyMwMDAnPgo8ZyBzdHJva2U9J25vbmUnPgo8dGV4dCBjbGFzcz0nZjEnIHg9Jy02Mi4xNjE4OTcnIHk9Jy02My4zNTQ4NzInPuKIhjwvdGV4dD4KPHRleHQgY2xhc3M9J2YwJyB4PSctNTMuODU5NjcyJyB5PSctNjYuOTcwMjM2Jz7ugLA8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTQuMTY2NjcsLTU5LjQwNTUpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC02Mi4xNjE4OTcsLTYzLjM1NDg3MilzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YxJyB4PSctNjIuMTYxODk3JyB5PSctNjMuMzU0ODcyJz7iiIY8L3RleHQ+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPHBhdGggZD0nTTAtNi40MDk3M1YtNDQuODkwMzQnIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSdtYXRyaXgoMC4wLC0xLjAsMS4wLDAuMCwwLjAsLTQ0Ljc2NTM0KSc+CjxnIHN0cm9rZS1kYXNoYXJyYXk9J25vbmUnIHN0cm9rZS1kYXNob2Zmc2V0PScwLjAnPgogPGcgc3Ryb2tlLWxpbmVqb2luPSdtaXRlcic+CiA8cGF0aCBkPSdNMy4zOTcxMyAwTC4yNSAxLjg3NDk0VjBWLTEuODc0OTRaJyBmaWxsPSdub25lJy8+CiA8L2c+CiA8L2c+CjwvZz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoLTMuMjYzODksLTI5LjI4NjA5KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtNjIuMTYxODk3LC02My4zNTQ4NzIpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZScvPgo8L2c+CjwvZz4KPC9nPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSg1Mi4zNzc3MiwtMi41KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtNjIuMTYxODk3LC02My4zNTQ4NzIpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZSc+Cjx0ZXh0IGNsYXNzPSdmMScgeD0nLTYyLjE2MTg5NycgeT0nLTYzLjM1NDg3Mic+zpM8L3RleHQ+Cjx0ZXh0IGNsYXNzPSdmMCcgeD0nLTU1LjkzNTIyOCcgeT0nLTY2Ljk3MDIzNic+7oCwPC90ZXh0Pgo8L2c+CjwvZz4KPC9nPgo8L2c+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDUzLjc4MDUsLTU5LjQwNTUpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC02Mi4xNjE4OTcsLTYzLjM1NDg3MilzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJz4KPHRleHQgY2xhc3M9J2YxJyB4PSctNjIuMTYxODk3JyB5PSctNjMuMzU0ODcyJz7OkzwvdGV4dD4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8cGF0aCBkPSdNMTAuMTI1IDBINDcuMzIyMTcnIGZpbGw9J25vbmUnLz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoNDcuNTcyMTcsMC4wKSc+CjxnIHN0cm9rZS1kYXNoYXJyYXk9J25vbmUnIHN0cm9rZS1kYXNob2Zmc2V0PScwLjAnPgogPGcgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJz4KIDxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgogPHBhdGggZD0nTS0yLjIgMi41ODA2M0MtMS43OTgwNyAxLjAzMjIzLS45MDI0IC4zMDEwNyAwIDBDLS45MDI0LS4zMDEwNy0xLjc5ODA3LTEuMDMyMjMtMi4yLTIuNTgwNjMnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgyOC45NzM1OSwyLjgxMTgxKSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtNjIuMTYxODk3LC02My4zNTQ4NzIpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZScvPgo8L2c+CjwvZz4KPC9nPgo8cGF0aCBkPSdNNTYuOTA1NS02LjQwOTczVi00NC44OTAzNCcgZmlsbD0nbm9uZScvPgo8ZyB0cmFuc2Zvcm09J21hdHJpeCgwLjAsLTEuMCwxLjAsMC4wLDU2LjkwNTUsLTQ0Ljc2NTM0KSc+CjxnIHN0cm9rZS1kYXNoYXJyYXk9J25vbmUnIHN0cm9rZS1kYXNob2Zmc2V0PScwLjAnPgogPGcgc3Ryb2tlLWxpbmVqb2luPSdtaXRlcic+CiA8cGF0aCBkPSdNMy4zOTcxMyAwTC4yNSAxLjg3NDk0VjBWLTEuODc0OTRaJyBmaWxsPSdub25lJy8+CiA8L2c+CiA8L2c+CjwvZz4KPGcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoNjAuMTY5MzksLTI5LjI4NjA5KSc+CjxnIHN0cm9rZT0nbm9uZScgdHJhbnNmb3JtPSdzY2FsZSgtMS4wMDM3NSwxLjAwMzc1KXRyYW5zbGF0ZSgtNjIuMTYxODk3LC02My4zNTQ4NzIpc2NhbGUoLTEsLTEpJz4KPGcgZmlsbD0nIzAwMCc+CjxnIHN0cm9rZT0nbm9uZScvPgo8L2c+CjwvZz4KPC9nPgo8cGF0aCBkPSdNOC43MjIyMS01Ni45MDU1SDQ4LjcyNDk2JyBmaWxsPSdub25lJy8+CjxnIHRyYW5zZm9ybT0ndHJhbnNsYXRlKDQ4Ljk3NDk2LC01Ni45MDU1KSc+CjxnIHN0cm9rZS1kYXNoYXJyYXk9J25vbmUnIHN0cm9rZS1kYXNob2Zmc2V0PScwLjAnPgogPGcgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJz4KIDxnIHN0cm9rZS1saW5lam9pbj0ncm91bmQnPgogPHBhdGggZD0nTS0yLjIgMi41ODA2M0MtMS43OTgwNyAxLjAzMjIzLS45MDI0IC4zMDEwNyAwIDBDLS45MDI0LS4zMDEwNy0xLjc5ODA3LTEuMDMyMjMtMi4yLTIuNTgwNjMnIGZpbGw9J25vbmUnLz4KIDwvZz4KIDwvZz4KIDwvZz4KPC9nPgo8ZyB0cmFuc2Zvcm09J3RyYW5zbGF0ZSgyOC45NzM1OSwtNTkuNzE3MzIpJz4KPGcgc3Ryb2tlPSdub25lJyB0cmFuc2Zvcm09J3NjYWxlKC0xLjAwMzc1LDEuMDAzNzUpdHJhbnNsYXRlKC02Mi4xNjE4OTcsLTYzLjM1NDg3MilzY2FsZSgtMSwtMSknPgo8ZyBmaWxsPScjMDAwJz4KPGcgc3Ryb2tlPSdub25lJy8+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L2c+CjwvZz4KPC9nPgo8L3N2Zz4=" /></fr:resource-content><fr:resource-source
+    
+    <fr:resource
+hash="18ddbd1f42b8bae2aeffcb273dfc0f6b"><fr:resource-content><fr:img
+src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCEtLSBUaGlzIGZpbGUgd2FzIGdlbmVyYXRlZCBieSBkdmlzdmdtIDMuMC4zIC0tPgo8c3ZnIHZlcnNpb249JzEuMScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzI0LjM0MTk2M3B0JyBoZWlnaHQ9JzEyLjY5OTQyMnB0JyB2aWV3Qm94PSctNzIgLTcyIDE2LjIyNzk3NSA4LjQ2NjI4MSc+CjxzdHlsZSB0eXBlPSd0ZXh0L2Nzcyc+CjwhW0NEQVRBW0Bmb250LWZhY2V7Zm9udC1mYW1pbHk6Y21yMTA7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQU04QUFvQUFBQUFBNlFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRVFBQUFCZ2hVZHpwV050WVhBQUFBRTRBQUFBTVFBQUFEd0FRZ0NIWjJ4NVpnQUFBV3dBQUFCMEFBQUFkS09qVERWb1pXRmtBQUFCNEFBQUFDOEFBQUEyS1pmZ3lHaG9aV0VBQUFJUUFBQUFId0FBQUNRRUtnSFBhRzEwZUFBQUFqQUFBQUFLQUFBQUNnUDFBRmhzYjJOaEFBQUNQQUFBQUFnQUFBQUlBQ1lBT20xaGVIQUFBQUpFQUFBQUZ3QUFBQ0FBQlFBWGJtRnRaUUFBQWx3QUFBRE5BQUFCT0lMaEtxbHdiM04wQUFBRExBQUFBQkFBQUFBZ0FBTUFBWGphWTJCbW5NUTRnWUdWZ1lGcEZ0UFpmeUlNL1NDYThRM2pHd1pqUms0R0lHQmpnQU5HQmlTUVVseVdEcFRVWWRCalp2Z1A1RE5EcEpIVS9BY0tBd0RWQWd6YmVOcGpZR0JnWW1CZ1lBWmlFU0RKQ0taWkdEU0FOQnVRWmdUSzZqRG8vZjhQNUlQcC8xZi9Yd0dyQWdJQWkxb0l3d0FBQUFBQkFGai9PZ0RRQUcwQUZRQUFOd1lQQVFZSElpY21OelkzTkFjR0lpWTBOamNlQWRBRUl3WWpEUW9CQVFsR0F3TVBOQnNjR2g4akFWWTFDVElCREFRSFMyVVNCQTRoS1NFQkFUa0FBUUJaQUFFQXhRQnNBQWdBQURjT0FTSW1ORFl5RnNVQkh5MGZIeTBmTmhZZkh5MGZId0FBZU5wallHUmdZQURpbDV0KzdZem50L25Ld016Q0FBSlBHQUtFRVBSL0s2WUdobHdnbDRPQkNTUUtBRFQ4Q2JVQWVOcGpZR1JnWUdiNHo4REF3TlRBRU1IZ3czQ0JBU2lDQXBnQVNPUUMvUUFDZ0FBQUFSd0FXQUJaQUFBQUFBQUFBQ1lBT25qYVkyQmtZR0JnWmhCakFORU1VQklKQUFBQzNnQWRBSGphUll3eGI4SXdFSVcvaUFTSmRPaFNkV0FBRDh4V29qQjNZV0JpWldJQmJLSU1jWkFUSWlHaGp2M2RQWXdsYm5qNjdyMTNCK1Q4a3ZDY2hNK2d6MG5KWkh0eHhnZGZrYWV5TFNQbnpGa3hJVWxuNGl6NGlaeEtjb2ljOGMwbDhsVDhSK1NjTlgrYnJyM2VCdXZWcmpQV3UzUHJ5Mkp2ZmQ5MFRwVzZDUHZXT3V1UGd6WHFkRmRtYlBxeGJsV2xDMTJ4b2FQbHlvMEJpMGV4RThjRWRwd2w4NVFVN0lQVDAwanFwRldpeFgzblc4bGQ2QnpESnlPZEUzZFJ3eWhYdldndGJVVVZMalhWUDJNOUx3OEFBQUI0Mm1OZ1prQUdqQXhvQUFBQWpnQUYpIGZvcm1hdCgnd29mZicpO30KQGZvbnQtZmFjZXtmb250LWZhbWlseTpjbXRpMTA7c3JjOnVybChkYXRhOmFwcGxpY2F0aW9uL3gtZm9udC13b2ZmO2Jhc2U2NCxkMDlHUmdBQkFBQUFBQVJFQUFvQUFBQUFCT2dBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlBVeTh5QUFBQTlBQUFBRVFBQUFCZ2hVbDBBR050WVhBQUFBRTRBQUFBTXdBQUFFUUFlUUVCWjJ4NVpnQUFBV3dBQUFGeEFBQUJvTFVyb2dob1pXRmtBQUFDNEFBQUFDOEFBQUEyS1puanRtaG9aV0VBQUFNUUFBQUFJQUFBQUNRRk53RnRhRzEwZUFBQUF6QUFBQUFRQUFBQUVBYkxBVDVzYjJOaEFBQURRQUFBQUFvQUFBQUtBT1lBYW0xaGVIQUFBQU5NQUFBQUdBQUFBQ0FBQndCRWJtRnRaUUFBQTJRQUFBRFNBQUFCUHFBWWRkTndiM04wQUFBRU9BQUFBQXdBQUFBZ0FBTUFBSGphWTJCbTNNUTRnWUdWZ1lGcEZ0UFpmeUlNL1NDYThRM2pHd1pqUms0R0lHQmpnQU5HQmlTUVVseVdEcFRVWThoa1p2Z1A1RE5EcEpIVS9BY0tBd0RuancwNGVOcGpZR0JnWW1CZ1lBWmlFU0RKQ0taWkdBeUFOQWNRZ3VUMEdGSVpNdi8vUjdEK1gvNC85Lzhzc0Zvd0FBRG5VZ3QwQUhqYUhkSEJUc0pBRUFiZ21kMnlDMjNaRmxLMldMQkF3YmFnRm9YYWlxSkVURkJqUEJrU1g4RkViM3J5Sll4UDRCdjRGTDZHSGp4NzlLd3JtZE0vTThsOHlRRENBd0I4d1IyVUFIS0JQSXlPY1NTL01QSUdGT09oZTdJV0lSazBOandBQW8rL1AvaUo3OUNEVkcxM0JaR3V6UExNOWJIR0xHUTh3VDBWVmFtR1pGeGdOSmFybklaUnlCbG5QekV6c2JWajMwOTF5blJNNnBPYml3dnQxTEl2cjNZelVqK01sZ2MxZDcvWEdXdUJyMjhLTy9tV1I3TXJTb05GbWFCUkVQMXFySkhiODZlelNubUtPT3FWRmsxUmxNZ0x0cHg2WGFRVlhnNlVjNm1jMStRVmNwZ0RiRGovbC85dDZZeG1hZGhkVVFWMm96QmQ0VWJTZFN6Q3VJOTVOc01zUDhaeFJ0VThDTk5zUEpKNGJSdFZQNDlETFcyWlhKUUdzdUF3cFM4eDIxUjlQMEdpeitzVUxkNlgzQ2tRcHBjcHRtMVR0aXFHKzhLR2pVYWk0VzViaU9kbFVPc1oybFp4YTExblNNU3c0UTIxZUNDTXp0dWs3K2lvYlpyYmRaTlIvSEE5SzI3YTZqRi8ybGcyWXdBQUFIamFZMkJrWUdBQTRxYmlwZlBqK1cyK01qQ3pNSURBRTRZQUlRVDkveXRURTlNQ0lKZURnUWtrQ2dBUnhRbVNBSGphWTJCa1lHQm0rTS9Bd01EVXhCRDYveG5qZlFhZ0NBcGdBUUJza0FTbkFvSUFBQUU1QUhRQjF3QjFBVGtBVlFBQUFBQUFGZ0JxQU5BQUFIamFZMkJrWUdCZ1lYQm1ZR0lBQVVZR05BQUFCM1VBVEhqYVRZNnhhc013RUlZL1U4ZFFwOUNwSFRvVVRSbUZqZnNBZ1F5WnNtWXNKSkVJRGxnS3NtTElFdm9BZmVoZUZBMDl3ZkhkZDcrRWdKb2JCZmNxZUUzOVhpV1ZUQStlTWVjdGN5VkhaYTc1WU1FVFJma3M1cE5sNXBJWHZqUFBlT2VVdVJML2s3bm1pOStWSDg2WGFJUGFlR09ET3d5eGI1dXREV1B2bldwMTh4QnI2MnpZUld2VS9xck0xSS9UY1ZDZGJuVEhDcy9BbVFzUlM1Q2ZiY1NZeEk2RDdDSTlMUTNiNUVhWnZHeVVPQzMyZjJJdENaZFN1L1Nha2RTZXEzVERKSmxSK2xIeWlpN2QxWFIvN1RjdzF3QUFlTnBqWUdiQUN3QUFmUUFFKSBmb3JtYXQoJ3dvZmYnKTt9CnRleHQuZjAge2ZvbnQtZmFtaWx5OmNtdGkxMDtmb250LXNpemU6OS45NjI2NHB4fQp0ZXh0LmYxIHtmb250LWZhbWlseTpjbXIxMDtmb250LXNpemU6OS45NjI2NHB4fQpdXT4KPC9zdHlsZT4KPGcgaWQ9J3BhZ2UxJz4KPHRleHQgY2xhc3M9J2YwJyB4PSctNzIuMDAwMDA0JyB5PSctNjUuNDcwOSc+aS5lPC90ZXh0Pgo8dGV4dCBjbGFzcz0nZjEnIHg9Jy02MS4zMDY4MjQnIHk9Jy02NS40NzA5Jz4uLDwvdGV4dD4KPC9nPgo8L3N2Zz4=" /></fr:resource-content><fr:resource-source
 type="latex"
 part="preamble"><![CDATA[
-   
-  \RequirePackage {tikz}
-  \RequirePackage {amsmath}
-  \usetikzlibrary {backgrounds, intersections, calc, spath3, fit}
+      
+    \RequirePackage{xspace}
 
-  \definecolor {catccolor}{RGB}{255,244,138}
-  \tikzstyle {dot}=[circle, draw=black, fill=black, minimum size=1mm, inner sep=0mm]
-  \tikzstyle {catc}=[catccolor!60]
-  \tikzstyle {catd}=[orange!40]
-  \tikzstyle {cate}=[red!40]
-  \tikzstyle {catf}=[blue!10]
-  \tikzstyle {catg}=[green!25]
+  % Add a period to the end of an abbreviation unless there's one
+  % already, then \xspace.
+  \DeclareRobustCommand\onedot{\futurelet\@let@token\@onedot}
+  \def\@onedot{\ifx\@let@token.\else.\null\fi\xspace}
 
+  \newcommand{\eg}{\emph{e.g}.,\xspace}
+  \newcommand{\vs}{\emph{versus}\xspace}
+  \newcommand{\ie}{\emph{i.e}.,\xspace}
+  \def\cf{\emph{cf}\onedot}
+  \def\etc{\emph{etc}\onedot}
+  \def\etal{\emph{et~al}\onedot}
+  \def\opcit{\emph{op.~cit}\onedot}
+  \def\viceversa{\emph{vice~versa}}
+  \def\apriori{\emph{a~priori}\xspace}
 
-  \tikzstyle {blue halo}=[fill=blue!10, opacity=0.7, rounded corners]
-  \tikzstyle {white halo}=[fill=white, opacity=0.7, rounded corners]
-
-  \NewDocumentCommand \CreateRect {D<>{} m m}{
-    \path 
-      coordinate (#1nw)
-      ++(#2,-#3) coordinate (#1se)
-      coordinate (#1sw) at (#1se -| #1nw)
-      coordinate (#1ne) at (#1nw -| #1se)
-    ;
-
-    \path [spath/save = #1north] (#1nw) to (#1ne);
-    \path [spath/save = #1west] (#1nw) to (#1sw);
-    \path [spath/save = #1east] (#1ne) to (#1se);
-    \path [spath/save = #1south] (#1sw) to (#1se);
-  }
-
-   
-   % appears to be necessary
-  \usepackage{tikz, tikz-cd, mathtools, amssymb, stmaryrd}
-  \usetikzlibrary{matrix,arrows}
-  \usetikzlibrary{backgrounds,fit,positioning,calc,shapes}
-  \usetikzlibrary{decorations.pathreplacing}
-  \usetikzlibrary{decorations.pathmorphing}
-  \usetikzlibrary{decorations.markings}
-
-  % basic settings
-  \tikzset{
-    diagram/.style = {
-      on grid,
-      node distance=2cm,
-      commutative diagrams/every diagram,
-      line width = .5pt,
-      every node/.append style = {
-        commutative diagrams/every cell,
-      },
-    },
-    morphism/.style = {
-      auto=left,
-      node font=\scriptsize,
-    },
-    phantom/.style = {
-      commutative diagrams/phantom,
-      node font=\scriptsize,
-      sloped,
-    },
-    between/.style args = {#1 and #2}{
-      at = ($(#1)!0.5!(#2)$)
-    },
-    desc/.style = {anchor=center,fill=white,inner sep=3pt},
-    offset/.style args = {#1} {commutative diagrams/shift right={#1}},
-    cross over/.style = {
-      commutative diagrams/crossing over
-    },
-    adjoint/.style = {
-      phantom,
-      every to/.append style = {
-        edge node = {node [sloped,allow upside down,auto=false] {$\dashv$}}
-      }
-    },
-  }
-
-  % pullback and pushout
-  \tikzset{
-    pullback/.style = {
-      append after command = {
-        \pgfextra{
-          \draw ($(\tikzlastnode) + (.2cm,-.5cm)$) -- ++(0.3cm,0) -- ++(0,0.3cm);
-        }
-      }
-    },
-    pushout/.style = {
-      append after command={
-        \pgfextra{
-          \draw ($(\tikzlastnode) + (-.2cm,.5cm)$) -- ++(-0.3cm,0) -- ++(0,-0.3cm);
-        }
-      }
-    },
-  }
-
-  % arrow styles
-  \tikzset{
-    exists/.style = {
-      densely dashed
-    },
-    embedding/.style = {
-      {right hook}->
-    },
-    into/.style = {
-      {right hook}->
-    },
-    cover/.style = {
-      -{Triangle[open]}
-    },
-    display/.style = {
-      -{Triangle[open]}
-    },
-    twocell/.style = {
-      double, -{implies}
-    }
-  }
-
-  \newlength{\dontworryaboutit} % no idea what it does
-
-  \tikzset{
-    inline diagram/.style = {
-      commutative diagrams/every diagram,
-      commutative diagrams/cramped,
-      line width = .5pt,
-      every node/.append style = {
-        commutative diagrams/every cell,
-        anchor = base,
-        inner sep = 0pt
-      },
-      every path/.append style = {
-        outer xsep = 2pt
-      }
-    }
-  }
-  
-  % macros for drawing commutative squares
-  % adapted from Jon Sterling's macros (https://git.sr.ht/~jonsterling/article-template/tree/main/item/local-tikz.sty)
-  \tikzset{
-    square/nw/.style = {},
-    square/ne/.style = {},
-    square/se/.style = {},
-    square/sw/.style = {},
-    square/north/.style = {->},
-    square/south/.style = {->},
-    square/west/.style = {->},
-    square/east/.style = {->},
-    square/north/node/.style = {above},
-    square/south/node/.style = {below},
-    square/west/node/.style = {left},
-    square/east/node/.style = {right},
-  }
-
-  \ExplSyntaxOn
-  \keys_define:nn { jon-tikz/diagram } {
-    nw .tl_set:N = \l_jon_tikz_diagram_nw,
-    sw .tl_set:N = \l_jon_tikz_diagram_sw,
-    ne .tl_set:N = \l_jon_tikz_diagram_ne,
-    se .tl_set:N = \l_jon_tikz_diagram_se,
-
-    width .tl_set:N = \l_jon_tikz_diagram_width,
-    height .tl_set:N = \l_jon_tikz_diagram_height,
-
-    north .tl_set:N = \l_jon_tikz_diagram_north,
-    south .tl_set:N = \l_jon_tikz_diagram_south,
-    west .tl_set:N = \l_jon_tikz_diagram_west,
-    east .tl_set:N = \l_jon_tikz_diagram_east,
-
-    nw/style .code:n = {\tikzset{square/nw/.style = {#1}}},
-    sw/style .code:n = {\tikzset{square/sw/.style = {#1}}},
-    ne/style .code:n = {\tikzset{square/ne/.style = {#1}}},
-    se/style .code:n = {\tikzset{square/se/.style = {#1}}},
-
-    north/style .code:n = {\tikzset{square/north/.style = {#1}}},
-    north/node/style .code:n = {\tikzset{square/north/node/.style = {#1}}},
-    south/style .code:n = {\tikzset{square/south/.style = {#1}}},
-    south/node/style .code:n = {\tikzset{square/south/node/.style = {#1}}},
-    west/style .code:n = {\tikzset{square/west/.style = {#1}}},
-    west/node/style .code:n = {\tikzset{square/west/node/.style = {#1}}},
-    east/style .code:n = {\tikzset{square/east/.style = {#1}}},
-    east/node/style .code:n = {\tikzset{square/east/node/.style = {#1}}},
-
-    draft .meta:n = {
-      nw = {nw},
-      sw = {sw},
-      se = {se},
-      ne = {ne},
-      north = {north},
-      south = {south},
-      west = {west},
-      east = {east},
-    }
-  }
-
-  \tl_set:Nn \l_jon_tikz_diagram_width { 2cm }
-  \tl_set:Nn \l_jon_tikz_diagram_height { 2cm }
-
-
-  \cs_new:Nn \__jon_tikz_render_square:nn {
-    \group_begin:
-    \keys_set:nn {jon-tikz/diagram} {#2} {
-      \node (#1nw) [square/nw] {$\l_jon_tikz_diagram_nw$};
-      \node (#1sw) [below = \l_jon_tikz_diagram_height~of~#1nw,square/sw] {$\l_jon_tikz_diagram_sw$};
-      \draw[morphism,square/west] (#1nw) to node [square/west/node] {$\l_jon_tikz_diagram_west$} (#1sw);
-
-      \node (#1ne) [right = \l_jon_tikz_diagram_width~of~#1nw,square/ne] {$\l_jon_tikz_diagram_ne$};
-      \node (#1se) [below = \l_jon_tikz_diagram_height~of~#1ne,square/se] {$\l_jon_tikz_diagram_se$};
-      \draw[morphism,square/north] (#1nw) to node [square/north/node] {$\l_jon_tikz_diagram_north$} (#1ne);
-      \draw[morphism,square/east] (#1ne) to node [square/east/node] {$\l_jon_tikz_diagram_east$} (#1se);
-      \draw[morphism,square/south] (#1sw) to node [square/south/node] {$\l_jon_tikz_diagram_south$} (#1se);
-    }
-    \group_end:
-  }
-
-  % the optional argument allows one to specify a prefix to positions
-  \NewDocumentCommand\SpliceDiagramSquare{O{}m}{
-    \__jon_tikz_render_square:nn {#1} {#2}
-  }
-
-  \NewDocumentCommand\DiagramSquare{O{}O{}m}{
-    \begin{tikzpicture}[diagram,#2,baseline=(#1sw.base)]
-      \__jon_tikz_render_square:nn {#1} {#3}
-    \end{tikzpicture}
-  }
-  \ExplSyntaxOff
-
-  ]]></fr:resource-source><fr:resource-source
+    ]]></fr:resource-source><fr:resource-source
 type="latex"
-part="body"><![CDATA[
-      \DiagramSquare {
-        nw = {\Delta '},
-        nw/style = {pullback},
-        ne = {\Gamma '},
-        se = {\Gamma },
-        sw = {\Delta },
-        west/style = {display},
-        east/style = {display}
-      }
-    ]]></fr:resource-source></fr:resource></fr:figure></fr:li>
-  <fr:li>Isomorphisms are display maps.</fr:li>
-  <fr:li>Display maps are closed under composition: the composite of two composable display maps is a display map.</fr:li>
-  <fr:li><fr:tex
-display="inline"><![CDATA[\mathcal {C}]]></fr:tex> has a terminal object, and every map into the terminal object is a display map.</fr:li></fr:ol><fr:p>A <fr:em><fr:strong>clan morphism</fr:strong></fr:em> is a functor between clans which preserves display maps, pullbacks of display maps, and the terminal object.
-  <fr:tex
-display="inline"><![CDATA[\mathsf {Clan}]]></fr:tex> is the 2-category of clans, clan morphisms, and natural transformations between them.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+part="body"><![CDATA[\ie ]]></fr:resource-source></fr:resource>
+  
+ every function is a display map).
+  We write <fr:tex
+display="inline"><![CDATA[\mathcal {T}\text {-}\mathsf {Mod}]]></fr:tex> for the category of models <fr:tex
+display="inline"><![CDATA[\operatorname {Hom_\mathsf {Clan}}(\mathcal {T},\mathsf {Set})]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>

@@ -21,6 +21,12 @@
   \stopverb
 }
 
+\def\latex-preamble/symbols{
+  \startverb
+  \usepackage{mathtools, amssymb, stmaryrd}
+  \stopverb
+}
+
 \def\latex-preamble/diagrams{
   \startverb % appears to be necessary
   \usepackage{tikz, tikz-cd, mathtools, amssymb, stmaryrd}

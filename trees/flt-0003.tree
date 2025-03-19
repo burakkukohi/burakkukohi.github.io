@@ -1,0 +1,18 @@
+\title{representable models}
+\taxon{remark}
+\import{macros}
+
+\p{
+  The representable functors #{\Hom{\cT}(\Gamma,-) : \cT \to \Set} are [models of a clan](flt-0002) \cT.
+  Hence the Yoneda embedding restricts to a fully faithful functor which we also call \yon.
+}
+\texfig{
+  \begin{tikzpicture}[diagram]
+    \node (1) {$\opCat{\cT}$};
+    \node[right=of 1] (2) {$\Set^{\cT}$};
+    \node[above=of 2] (3) {$\cT\TMod$};
+    \draw[morphism,->] (1) to node[below] {$\yon$} (2);
+    \draw[morphism,into] (3) to node {} (2);
+    \draw[morphism,exists,->] (1) to node {$\yon$} (3);
+  \end{tikzpicture}
+}

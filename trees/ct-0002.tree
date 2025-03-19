@@ -1,0 +1,12 @@
+\title{weak factorization system}
+\taxon{definition}
+\import{macros}
+
+\p{
+  Given a class of arrows #{E} in a category \cC, we define \prescript{\pitchfork}{}{E} to be the class of all arrows with the [left lifting property](ct-0001) with respect to every arrow in #{E}.
+  Similarly, we define #{E^{\pitchfork}} to be the class of all arrows with the [right lifting property](ct-0001) with respect to every arrow in #{E}.
+}
+
+\p{
+  A \dem{weak factorization system} on \cC consists of two classes #{\cL} and #{\cR} of morphisms in \cC such that #{\cL^{\pitchfork} = \cR} and \prescript{\pitchfork}{}{\cR} #{= \cL}, and every arrow #{f : A \to B} in \cC admits a factorization #{f = r \circ l} with #{l \in \cL} and #{r \in \cR}.
+}

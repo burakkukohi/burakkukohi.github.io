@@ -283,7 +283,7 @@ type="local"
 href="flt-0001.xml"
 addr="flt-0001"
 title="Clan">clan</fr:link></fr:title><fr:taxon>Definition</fr:taxon><fr:authors /></fr:frontmatter><fr:mainmatter><fr:p>A <fr:em><fr:strong>model</fr:strong></fr:em> of a clan <fr:tex
-display="inline"><![CDATA[\mathcal {C}]]></fr:tex> is a clan morphism into the <fr:em>large</fr:em> clan <fr:tex
+display="inline"><![CDATA[\mathcal {T}]]></fr:tex> is a clan morphism into the <fr:em>large</fr:em> clan <fr:tex
 display="inline"><![CDATA[\mathsf {Set}]]></fr:tex> equipped with the maximal clan structure (
   
     
@@ -314,4 +314,7 @@ part="preamble"><![CDATA[
 type="latex"
 part="body"><![CDATA[\ie ]]></fr:resource-source></fr:resource>
   
- every function is a display map).</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
+ every function is a display map).
+  We write <fr:tex
+display="inline"><![CDATA[\mathcal {T}\text {-}\mathsf {Mod}]]></fr:tex> for the category of models <fr:tex
+display="inline"><![CDATA[\operatorname {Hom_\mathsf {Clan}}(\mathcal {T},\mathsf {Set})]]></fr:tex>.</fr:p></fr:mainmatter><fr:backmatter /></fr:tree></fr:mainmatter><fr:backmatter /></fr:tree></fr:backmatter></fr:tree>
