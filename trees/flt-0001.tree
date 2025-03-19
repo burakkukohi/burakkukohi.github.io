@@ -1,0 +1,36 @@
+\title{clan}
+\taxon{definition}
+\import{macros}
+
+\p{
+  A \dem{clan} is a small category \cC together with a distinguished class of arrows called \dem{display maps}, such that:
+}
+\ol{
+  \li{
+    Pullbacks against any display map exist, and display maps are pullback stable.
+    \texfig{
+      \DiagramSquare{
+        nw = {\Delta'},
+        nw/style = {pullback},
+        ne = {\Gamma'},
+        se = {\Gamma},
+        sw = {\Delta},
+        west/style = {display},
+        east/style = {display}
+      }
+    }
+  }
+  \li{
+    Isomorphisms are display maps.
+  }
+  \li{
+    Display maps are closed under composition: the composite of two composable display maps is a display map.
+  }
+  \li{
+    \cC has a terminal object, and every map into the terminal object is a display map.
+  }
+}
+\p{
+  A \dem{clan morphism} is a functor between clans which preserves display maps, pullbacks of display maps, and the terminal object.
+  \Clan is the 2-category of clans, clan morphisms, and natural transformations between them.
+}

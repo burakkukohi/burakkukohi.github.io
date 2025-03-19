@@ -1,0 +1,7 @@
+\title{models of a [clan](flt-0001)}
+\taxon{definition}
+\import{macros}
+
+\p{
+  A \dem{model} of a clan \cC is a clan morphism into the \emph{large} clan \Set equipped with the maximal clan structure (\ie every function is a display map).
+}

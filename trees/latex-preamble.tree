@@ -1,5 +1,26 @@
 \title{latex preamble}
 
+\def\latex-preamble/abbrev{
+  \startverb
+  \RequirePackage{xspace}
+
+  % Add a period to the end of an abbreviation unless there's one
+  % already, then \xspace.
+  \DeclareRobustCommand\onedot{\futurelet\@let@token\@onedot}
+  \def\@onedot{\ifx\@let@token.\else.\null\fi\xspace}
+
+  \newcommand{\eg}{\emph{e.g}.,\xspace}
+  \newcommand{\vs}{\emph{versus}\xspace}
+  \newcommand{\ie}{\emph{i.e}.,\xspace}
+  \def\cf{\emph{cf}\onedot}
+  \def\etc{\emph{etc}\onedot}
+  \def\etal{\emph{et~al}\onedot}
+  \def\opcit{\emph{op.~cit}\onedot}
+  \def\viceversa{\emph{vice~versa}}
+  \def\apriori{\emph{a~priori}\xspace}
+  \stopverb
+}
+
 \def\latex-preamble/diagrams{
   \startverb % appears to be necessary
   \usepackage{tikz, tikz-cd, mathtools, amssymb, stmaryrd}
@@ -75,6 +96,9 @@
       {right hook}->
     },
     cover/.style = {
+      -{Triangle[open]}
+    },
+    display/.style = {
       -{Triangle[open]}
     },
     twocell/.style = {

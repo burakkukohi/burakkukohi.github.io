@@ -59,6 +59,14 @@
   }
 }
 
+\def\ie{
+  \scope{
+    \put?\base/tex-preamble{
+      \latex-preamble/abbrev
+    }
+    \tex{\get\base/tex-preamble}{\ie}
+  }
+}
 
 % Delimiters
 
@@ -255,13 +263,13 @@
 \def\iso{#{\cong}}
 
 \def\cat[c]{#{\mathsf{\c}}}
-\def\twocat[c]{#{\mathcal{\c}}}
 \def\Cat{#{\cat{Cat}}}
 \def\CAT{#{\cat{CAT}}}
 \def\Set{#{\cat{Set}}}
 \def\Fin{#{\cat{Fin}}}
 \def\Topos{#{\cat{Topos}}}
 \def\Logos{#{\cat{Logos}}}
+\def\Clan{#{\cat{Clan}}}
 
 \def\Psh{#{\operatorname{\mathrm{Pr}}}}
 \def\Sh{#{\operatorname{\mathrm{Sh}}}}
